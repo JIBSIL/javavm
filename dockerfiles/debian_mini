@@ -6,7 +6,7 @@ RUN apt-get -y install apt-utils gcc \
 	fakeroot dbus base whiptail \
 	patch wamerican ucf manpages \
 	file luajit make dialog curl \
-  openjdk-11-jdk-headless openjdk-11-jre-headless
+  default-jre default-jdk
 RUN useradd -m user && echo "user:password" | chpasswd
 COPY --chown=user:user ./examples /home/user/examples
 RUN chmod -R +x  /home/user/examples/lua
