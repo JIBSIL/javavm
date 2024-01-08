@@ -1,3 +1,6 @@
+## NOTE
+This repository is still indev and not operational. The original WebVM README is printed below:
+
 # WebVM
 
 This repository hosts the source code for [https://webvm.io](https://webvm.io), a Linux virtual machine that runs in your browser.
